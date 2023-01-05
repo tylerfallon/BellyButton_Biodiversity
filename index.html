@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -20,7 +19,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-12">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
@@ -38,20 +37,20 @@
         <button id="show-hide-bar" class="show-hide-buttons" onclick="showHideBar()"">Show/Hide Bar Graph</button><br><br>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-md-15">
         <div id="bar"></div>
       </div>
-      <br>
-
+      <br> <br><br><br>
+      <br><br><br>
       <div id="gauge-show">
         <button id="show-hide-gauge" class="show-hide-buttons" onclick="showHideGauge()"">Show/Hide Gauge</button><br><br>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-md-15">
         <div id="gauge"></div>
       </div>
     </div>
-    <br>
+    <br><br><br>
 
     <div id="bubble-graph-show">
       <button id="show-hide-bar" class="show-hide-buttons" onclick="showHideBubble()"">Show/Hide Bubble Graph</button><br><br>
@@ -72,6 +71,7 @@
     body {
       background-color: rgb(0, 225, 255);
     }
+    
 
     .show-hide-buttons {
       color: blue;
